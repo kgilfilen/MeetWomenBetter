@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.wrapper {
+padding: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,8 +17,133 @@
   }
 }
 
+.App-login-button {
+  background-color: #016539;
+  font-size: medium;
+  width: 200px;
+  height: 50px;
+  border: 100px;
+}
+
+.App-textinput-button {
+  background-color: white;
+  font-size: medium;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.App-paragraph {
+  font-size: small;
+  width: 450px;
+}
+
 .App-header {
-  background-color: #282c34;
+  height: 50px;
+  border-top: 20px;
+  background-color: #01452f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-page2 {
+  height: 100px;
+  background-color: #01452f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body-page2 {
+  background-color: #01452f;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-text-header {
+  height: 20px;
+  border-top: 20px;
+  background-color: #01452f;
+}
+
+.App-text-page {
+  background-color: #01452f;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-lesson-page {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  right: 50px;
+  bottom: 50px;
+  width: auto;
+  height: 300px;
+  background-color: white;
+  color: black;
+}
+
+.App-challenge-page {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  right: 50px;
+  bottom: 50px;
+  width: auto;
+  height: 300px;
+  background-color: white;
+  color: black;
+}
+
+.App-log-page {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  right: 50px;
+  bottom: 50px;
+  width: auto;
+  height: 300px;
+  background-color: white;
+  color: black;
+}
+
+.App-introspection-page {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  right: 50px;
+  bottom: 50px;
+  width: auto;
+  height: 300px;
+  background-color: white;
+  color: black;
+}
+
+.App-form {
+  background-color: #01452f;
+  height: 500px;
+}
+
+.App-spacer {
+  height: 50px;
+}
+.App-body {
+  background-color: #01452f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +154,45 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #088c32;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Login-modal {
+  position: absolute;
+  background-color: #01452f;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50em;
+}
+
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font: 12px;
+  background-color: gray;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font: 12px;
+  background-color: #f2f2f2;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
 }
